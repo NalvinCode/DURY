@@ -2,11 +2,11 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    colors: {
-      mainColor: '#0697DC',
-      mainBlue: '#008CD6'
-    },
     extend: {
+      colors: {
+        mainColor: '#0697DC',
+        mainBlue: '#008CD6'
+      },
       fontFamily: {
         Araside: ['Araside', 'sans-serif'],
       },
