@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -552,4 +552,33 @@ video {
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.font-Araside {
+  font-family: Araside, sans-serif;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+@font-face {
+  font-family: 'Araside';
+
+  src: url('../media/fonts/Araside.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+}
+
+.stripped-bg{
+  background-image: url('/media/BG.png');
+  background-size: cover;
+  background-position: center;
 }

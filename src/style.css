@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Araside';
+  src: url('../media/fonts/Araside.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stripped-bg{
+  background-image: url('/media/BG.png');
+  background-size: cover;
+  background-position: center;
+}
