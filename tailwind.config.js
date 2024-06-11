@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html",],
   theme: {
     extend: {
+      height: {
+        '110': '22rem',
+      },
+      width: {
+        'gato': '22rem',
+        '110': '22rem',
+      },
       colors: {
         mainColor: '#0697DC',
         mainBlue: '#008CD6'
