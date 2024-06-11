@@ -1094,10 +1094,6 @@ video {
     max-width: 32rem;
   }
 
-  .lg\:max-w-xl {
-    max-width: 36rem;
-  }
-
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1108,6 +1104,10 @@ video {
 
   .lg\:ps-14 {
     padding-inline-start: 3.5rem;
+  }
+
+  .lg\:ps-10 {
+    padding-inline-start: 2.5rem;
   }
 
   .lg\:text-3xl {
@@ -1123,5 +1123,10 @@ video {
   .lg\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
